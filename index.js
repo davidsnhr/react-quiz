@@ -1,4 +1,6 @@
 const express = require('express');
+const { config } = require("./src/config/index");
+
 const app = express();
 
 //Define Routes
